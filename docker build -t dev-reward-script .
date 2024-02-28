@@ -1,0 +1,4 @@
+docker build -t dev-reward-script .
+docker run -it -v ~/.ssh:/root/.ssh dev-reward-script
+./install.sh
+./proof-sh/proof.sh
